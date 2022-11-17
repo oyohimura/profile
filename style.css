@@ -1,0 +1,106 @@
+/* Import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+  /* background-color: #fff7e9e0; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; /* if you want the light version */
+  color: #294C60;
+  font-size: 16px;
+  line-height: 1.7;
+  background-image: linear-gradient(45deg, rgb(47, 38, 96) 0%, rgb(47, 38, 96) 1%,rgb(80, 63, 103) 1%, rgb(80, 63, 103) 53%,rgb(113, 87, 110) 53%, rgb(113, 87, 110) 57%,rgb(146, 112, 116) 57%, rgb(146, 112, 116) 69%,rgb(179, 136, 123) 69%, rgb(179, 136, 123) 75%,rgb(212, 161, 130) 75%, rgb(212, 161, 130) 100%);
+}
+
+h1, h2, h3 {
+  font-family: Varela, sans-serif;
+  /* color: #001b2e; */
+  color: #0063aa;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bolder;
+  letter-spacing: .1rem;
+}
+
+a {
+  color: #001B2E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #0073c5;
+}
+
+.container {
+    width: 600px;
+    margin: 0px auto;
+}
+
+
+.card-white {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  padding: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-align-left {
+  list-style: square;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.img-profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 5px #eee;
+}
+
+
+@media (max-width: 750px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 0px auto;
+  }
+
+  h1, h2, h3 {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .list-inline {
+    font-size: 24px;
+  }
+}
